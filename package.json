@@ -1,0 +1,20 @@
+{
+  "name": "neon-drift",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Neon Drift - a polished cyberpunk arcade browser game built with TypeScript, Phaser 3, and Vite.",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "phaser": "latest",
+    "vite": "latest"
+  },
+  "devDependencies": {
+    "typescript": "latest"
+  }
+}

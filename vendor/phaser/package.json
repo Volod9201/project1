@@ -1,0 +1,15 @@
+{
+  "name": "phaser",
+  "version": "3.90.0-neon-local",
+  "type": "module",
+  "main": "dist/phaser.js",
+  "module": "dist/phaser.js",
+  "types": "index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./index.d.ts",
+      "import": "./dist/phaser.js",
+      "default": "./dist/phaser.js"
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "name": "vite",
+  "version": "7.0.0-neon-local",
+  "type": "module",
+  "bin": {
+    "vite": "bin/vite.js"
+  },
+  "exports": {
+    ".": "./index.js"
+  },
+  "types": "index.d.ts"
+}

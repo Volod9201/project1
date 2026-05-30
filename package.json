@@ -11,10 +11,8 @@
     "typecheck": "tsc --noEmit"
   },
   "dependencies": {
-    "phaser": "latest",
-    "vite": "latest"
+    "phaser": "file:vendor/phaser",
+    "vite": "file:vendor/vite"
   },
-  "devDependencies": {
-    "typescript": "latest"
-  }
+  "devDependencies": {}
 }
